@@ -1,0 +1,1786 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DungeonsandDestiny",
+				"abbreviation": "DnDestiny",
+				"full": "Dungeons and Destiny",
+				"url": "https://velvetfanggames.com/dndestinycontent",
+				"authors": [
+					"Velvet Fang"
+				],
+				"convertedBy": []
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Shank",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Eliksni tech",
+					"shank"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6 + 2",
+				"average": 9
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "can hover"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 9,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "1/8",
+			"page": 26,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"perception": "+2"
+			},
+			"immune": [
+				{
+					"immune": [
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						"psychic"
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"blinded"
+					]
+				},
+				{
+					"conditionImmune": [
+						"charmed"
+					]
+				},
+				{
+					"conditionImmune": [
+						"deafened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"exhaustion"
+					]
+				},
+				{
+					"conditionImmune": [
+						"frightened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"petrified"
+					]
+				},
+				{
+					"conditionImmune": [
+						"poisoned"
+					]
+				},
+				{
+					"conditionImmune": [],
+					"preNote": "Burning"
+				}
+			],
+			"action": [
+				{
+					"name": "Turret",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 4} to hit, scope 20/30/40",
+						"(close), one target. {@h}5 ({@damage 1d6 + 2}) arc damage."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Hack DC",
+					"entries": [
+						"15"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dreg",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"Eliskni"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"light armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 - 2",
+				"average": 7
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 9,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"passive": 11,
+			"cr": "1/8",
+			"page": 13,
+			"skill": {
+				"stealth": "+3"
+			},
+			"trait": [
+				{
+					"name": "Vehicle Proficiencies",
+					"entries": [
+						"heavy pike, pike"
+					]
+				},
+				{
+					"name": "Mob Mentality",
+					"entries": [
+						"The dreg has advantage on weapon",
+						"attacks it makes against a target, if the target has been",
+						"attacked by an ally that is within 5 feet of the dreg before the start of the dreg's turn"
+					]
+				}
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Eliksni"
+			],
+			"action": [
+				{
+					"name": "Shock Pistol",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 3} to hit, scope",
+						"20/30/40 (close), one target. {@h}4 ({@damage 1d6 + 1}) arc damage."
+					]
+				},
+				{
+					"name": "Shock Dagger",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5",
+						"ft., thrown 20/30 ft., one target. {@h}3 ({@damage 1d4 + 1}) arc damage"
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Sentry Shank",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Eliksni tech",
+					"shank"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d6",
+				"average": 4
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "can hover"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 13,
+			"con": 10,
+			"int": 11,
+			"wis": 16,
+			"cha": 10,
+			"passive": 17,
+			"cr": "0",
+			"page": 27,
+			"senses": [
+				"darkvision 200 ft. scanners 5ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"immune": [
+				{
+					"immune": [
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						"psychic"
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"blinded"
+					]
+				},
+				{
+					"conditionImmune": [
+						"charmed"
+					]
+				},
+				{
+					"conditionImmune": [
+						"deafened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"exhaustion"
+					]
+				},
+				{
+					"conditionImmune": [
+						"frightened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"petrified"
+					]
+				},
+				{
+					"conditionImmune": [
+						"poisoned"
+					]
+				},
+				{
+					"conditionImmune": [
+						{
+							"special": "Burning"
+						}
+					],
+					"preNote": "Burning"
+				}
+			],
+			"skill": {
+				"perception": "+7"
+			},
+			"trait": [
+				{
+					"name": "Technology",
+					"entries": [
+						"+2"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scan",
+					"entries": [
+						"The shank scans in a 15 foot cone"
+					]
+				},
+				{
+					"name": "Mark and Alarm",
+					"entries": [
+						"The shank marks a target it can perceive",
+						"and begins broadcasting information about the target to",
+						"all allied shanks and servitors within 60 feet. Constructs",
+						"receiving this data have advantage on attack rolls they",
+						"make against a marked target. The shank can only mark",
+						"up to 3 targets at a time, and if it loses perception of a",
+						"marked target for 1 minute or longer, the target is no",
+						"longer marked by the shank.",
+						"When it marks a target, it also sounds an alarm that can",
+						"be heard clearly up to 300 feet away. This alarm continues",
+						"until all targets the shank have marked are destroyed,",
+						"until the shank is reset, or until the shank loses",
+						"perception of its marked targets."
+					]
+				}
+			]
+		},
+		{
+			"name": "Knight",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Hive"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 15
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 16,
+			"int": 13,
+			"wis": 14,
+			"cha": 14,
+			"passive": 15,
+			"cr": "5",
+			"page": 49,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languages": [
+				"krill"
+			],
+			"save": {
+				"str": "+6",
+				"dex": "+3",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+6",
+				"perception": "+5",
+				"religion": "+5"
+			},
+			"trait": [
+				{
+					"name": "Vehicle Proficiencies",
+					"entries": [
+						"tomb ship"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight takes two shots with its boomer cannon"
+					]
+				},
+				{
+					"name": "Boomer Cannon",
+					"entries": [
+						"Payload Firearm Weapon Attack: {@dc 14},",
+						"scope 60/120/340 (close), radius 5 ft. Failed save (half on",
+						"success): 14 ({@dice 2d10 + 3}) explosive arc damage"
+					]
+				},
+				{
+					"name": "Cleaver",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one",
+						"target. {@h}9 ({@damage 1d12 + 3}) slashing damage. If the knight is",
+						"holding this weapon with two hands when it hits with an",
+						"attack, it can use a bonus action to cause the attack to",
+						"deal an additional 21 ({@damage 6d6}) darkness damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Shield of Darkness (recharge d6 [5])",
+					"entries": [
+						"If a creature makes a weapon attack against the knight, the knight can summon a shield of pure Darkness to completely negate all effects of the attack, including all damage or saving throws from payload weapons. The knight heals itself for 10 ({@dice 3d6}) hit points when it does this."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Thrall",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"hive"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 - 3",
+				"average": 10
+			},
+			"speed": {
+				"walk": 35,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 9,
+			"int": 7,
+			"wis": 14,
+			"cha": 7,
+			"passive": 14,
+			"cr": "1/4",
+			"page": 58,
+			"senses": [
+				"blindsight 30 ft. (blind beyond this radius)"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"understands krill"
+			],
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thrall makes two melee attacks"
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one",
+						"target. {@h}4 ({@damage 1d4 + 2}) arc damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one",
+						"target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Acolyte",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"hive"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 15,
+			"cha": 12,
+			"passive": 15,
+			"cr": "2",
+			"page": 37,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"krill"
+			],
+			"skill": {
+				"religion": "+5",
+				"stealth": "+5",
+				"perception": "+5"
+			},
+			"trait": [
+				{
+					"name": "Shadowy Movement",
+					"entries": [
+						"When in dim light or darkness, the acolyte can take the Disengage or Hide action as a bonus action on its turn"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The acolyte takes three shots with its shredder rifle"
+					]
+				},
+				{
+					"name": "Shredder Rifle",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 4} to hit, scope 30/40/75 (close), one target. {@h}7 ({@damage 2d6d1 + 1}) void damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Shank",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Eliksni tech",
+					"shank"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6 + 2",
+				"average": 9
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "can hover"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 9,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "1/8",
+			"page": 26,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"perception": "+2"
+			},
+			"immune": [
+				{
+					"immune": [
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						"psychic"
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"blinded"
+					]
+				},
+				{
+					"conditionImmune": [
+						"charmed"
+					]
+				},
+				{
+					"conditionImmune": [
+						"deafened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"exhaustion"
+					]
+				},
+				{
+					"conditionImmune": [
+						"frightened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"petrified"
+					]
+				},
+				{
+					"conditionImmune": [
+						"poisoned"
+					]
+				},
+				{
+					"conditionImmune": [],
+					"preNote": "Burning"
+				}
+			],
+			"action": [
+				{
+					"name": "Turret",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 4} to hit, scope 20/30/40",
+						"(close), one target. {@h}5 ({@damage 1d6 + 2}) arc damage."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Hack DC",
+					"entries": [
+						"15"
+					]
+				}
+			]
+		},
+		{
+			"name": "Bomb Shank",
+			"size": [
+				"S"
+			],
+			"type": "construct",
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d6 - 10",
+				"average": 25
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "can hover"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 9,
+			"int": 3,
+			"wis": 12,
+			"cha": 10,
+			"passive": 11,
+			"cr": "1/2",
+			"page": 26,
+			"vulnerable": [
+				{
+					"vulnerable": [],
+					"preNote": "kinetic"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"petrified",
+				"poisoned",
+				{
+					"special": "Burning"
+				}
+			],
+			"trait": [
+				{
+					"name": "Volatile",
+					"entries": [
+						"If a creature moves within 5 feet of the shank, it can use self-destruct as a reaction. If the shank takes damage that would reduce it to 0 health points, it immediately uses its self-destruct."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Self-Destruct",
+					"entries": [
+						"The bomb shank explodes, destroying itself. All targets within 5 feet of it must make a {@dc 11} Dexterity saving throw, taking 17 ({@dice 5d6}) explosive solar damage on a failed save, or half as much on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sentry Shank",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Eliksni tech",
+					"shank"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d6",
+				"average": 4
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "can hover"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 13,
+			"con": 10,
+			"int": 11,
+			"wis": 16,
+			"cha": 10,
+			"passive": 17,
+			"cr": "0",
+			"page": 27,
+			"senses": [
+				"darkvision 200 ft. scanners 5ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"petrified",
+				"poisoned",
+				{
+					"special": "burning"
+				}
+			],
+			"skill": {
+				"perception": "+7"
+			},
+			"trait": [
+				{
+					"name": "Technology",
+					"entries": [
+						"+2"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scan",
+					"entries": [
+						"The shank scans in a 15 foot cone"
+					]
+				},
+				{
+					"name": "Mark and Alarm",
+					"entries": [
+						"The shank marks a target it can perceive",
+						"and begins broadcasting information about the target to",
+						"all allied shanks and servitors within 60 feet. Constructs",
+						"receiving this data have advantage on attack rolls they",
+						"make against a marked target. The shank can only mark",
+						"up to 3 targets at a time, and if it loses perception of a",
+						"marked target for 1 minute or longer, the target is no",
+						"longer marked by the shank.",
+						"When it marks a target, it also sounds an alarm that can",
+						"be heard clearly up to 300 feet away. This alarm continues",
+						"until all targets the shank have marked are destroyed,",
+						"until the shank is reset, or until the shank loses",
+						"perception of its marked targets."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shank",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Eliksni tech",
+					"shank"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6 + 2",
+				"average": 9
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "can hover"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 9,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "1/8",
+			"page": 26,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"perception": "+2"
+			},
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"petrified",
+				"poisoned",
+				{
+					"special": "burning"
+				}
+			],
+			"action": [
+				{
+					"name": "Turret",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 4} to hit, scope 20/30/40",
+						"(close), one target. {@h}5 ({@damage 1d6 + 2}) arc damage."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Hack DC",
+					"entries": [
+						"15"
+					]
+				}
+			]
+		},
+		{
+			"name": "Bomb Shank",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"eliksni tech",
+					"shank"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d6 - 10",
+				"average": 25
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "can hover"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 9,
+			"int": 3,
+			"wis": 12,
+			"cha": 10,
+			"passive": 11,
+			"cr": "1/2",
+			"page": 26,
+			"vulnerable": [
+				{
+					"vulnerable": [],
+					"preNote": "kinetic"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"petrified",
+				"poisoned",
+				{
+					"special": "Burning"
+				}
+			],
+			"trait": [
+				{
+					"name": "Volatile",
+					"entries": [
+						"If a creature moves within 5 feet of the shank, it can use self-destruct as a reaction. If the shank takes damage that would reduce it to 0 health points, it immediately uses its self-destruct."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Self-Destruct",
+					"entries": [
+						"The bomb shank explodes, destroying itself. All targets within 5 feet of it must make a {@dc 11} Dexterity saving throw, taking 17 ({@dice 5d6}) explosive solar damage on a failed save, or half as much on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cursed Thrall",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"hive"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 9,
+			"con": 13,
+			"int": 9,
+			"wis": 13,
+			"cha": 7,
+			"passive": 13,
+			"cr": "1/2",
+			"page": 60,
+			"senses": [
+				"blindsigh 30ft"
+			],
+			"languages": [
+				"understands krill"
+			],
+			"skill": {
+				"perception": "+3"
+			},
+			"vulnerable": [
+				{
+					"special": "kinetic"
+				}
+			],
+			"action": [
+				{
+					"name": "Self-Destruct",
+					"entries": [
+						"The cursed thrall explodes, destroying itself. All targets within 5 feet of it must make a {@dc 11} Dexterity saving throw, taking 17 ({@dice 5d6}) explosive arc damage on a failed saved, or half as much on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Volatile",
+					"entries": [
+						"If a creature moves within 5 feet of the thrall, it can use self-destruct as a reaction. If the thrall takes damage that would reduce it to 0 health points, it immediately uses its self-destruct"
+					]
+				}
+			]
+		},
+		{
+			"name": "Spawn Clutch",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"hive"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d10",
+				"average": 77
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 2,
+			"cha": 2,
+			"passive": 0,
+			"cr": "2",
+			"page": 55,
+			"conditionImmune": [
+				{
+					"special": "all"
+				}
+			],
+			"action": [
+				{
+					"name": "Gas Cloud",
+					"entries": [
+						"The clutch produces toxic gas in a 10-foot spherical radius centered on itself. The gas lingers for up to 1 minute, spreads around corners, and any non-Hive or non-Taken creatures that enter the area of the gas must succeed on a {@dc 12} Constitution saving throw or become Poisoned for the next minute. Creatures Poisoned in this way have their movement speed halved and take 7 ({@damage 2d6}) poison damage at the start of each of their turns. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself early on a success."
+					]
+				},
+				{
+					"name": "Egg Sacs",
+					"entries": [
+						"If the clutch is reduced to half its health points or less, several of its egg sacs will break open, producing 3 ({@dice 1d4 + 1}) thrall that appear in unoccupied spaces within 10 feet of the clutch. The thrall are considered friendly to allies of the clutch and take their turn on the clutch’s turn. ",
+						"The clutch can benefit from this feature again if it is reduced to 0 health points, though doing so causes the clutch to wither and die immediately after."
+					]
+				}
+			],
+			"damageTags": [
+				"I"
+			]
+		},
+		{
+			"name": "Attendant",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"hive"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 15,
+			"int": 16,
+			"wis": 13,
+			"cha": 12,
+			"passive": 14,
+			"cr": "2",
+			"page": 40,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft.",
+				"truesight 30 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD",
+				"U"
+			],
+			"languages": [
+				"krill"
+			],
+			"skill": {
+				"acrobatics": "+6",
+				"arcana": "+6",
+				"perception": "+4",
+				"stealth": "+6",
+				"religion": "+4"
+			},
+			"action": [
+				{
+					"name": "Splinter Bow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 20/60 ft., up to 3 targets within 5 feet of a point in range. {@h}7 ({@damage 1d8 + 3}) solar damage."
+					]
+				},
+				{
+					"name": "Empowered Shot",
+					"entries": [
+						"The attendant fires a single high-power shot from its splinter bow at a target within 60 feet. The target must make a {@dc 14} Strength saving throw, taking 22 ({@damage 5d8}) solar damage on a failed save, or half as much on a success. Creatures that fail the saving throw are also knocked Prone."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Vandal",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"Eliksni"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"light armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "1/2",
+			"page": 32,
+			"senses": [
+				"darkvision 80 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Eliksni"
+			],
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"save": {
+				"dex": "+4"
+			},
+			"action": [
+				{
+					"name": "Shock Rifle",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 6} to hit, scope 15/120/240 (medium), one target. {@h}6 ({@damage 1d8 + 2}) arc damage."
+					]
+				},
+				{
+					"name": "Shock Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) arc damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "Vehicle Proficiencies",
+					"entries": [
+						"heavy pike, pike"
+					]
+				},
+				{
+					"name": "Technology Skill",
+					"entries": [
+						"+3"
+					]
+				}
+			]
+		},
+		{
+			"name": "Vandal",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"Eliksni"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"light armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "1/2",
+			"page": 32,
+			"senses": [
+				"darkvision 80 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Eliksni"
+			],
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"save": {
+				"dex": "+4"
+			},
+			"action": [
+				{
+					"name": "Shock Rifle",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 6} to hit, scope 15/120/240 (medium), one target. {@h}6 ({@damage 1d8 + 2}) arc damage."
+					]
+				},
+				{
+					"name": "Shock Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) arc damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "Vehicle Proficiencies",
+					"entries": [
+						"heavy pike, pike"
+					]
+				},
+				{
+					"name": "Technology",
+					"entries": [
+						"+3"
+					]
+				}
+			]
+		},
+		{
+			"name": "Captain",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"eliksni"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"heavy armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 18",
+				"average": 58
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 14,
+			"wis": 14,
+			"cha": 14,
+			"passive": 14,
+			"cr": "3",
+			"page": 12,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Eliksni",
+				"understands some City Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"str": "+6",
+				"dex": "+4"
+			},
+			"skill": {
+				"athletics": "+6",
+				"intimidation": "+5",
+				"perception": "+5",
+				"survival": "+5",
+				"arcana": "+5"
+			},
+			"trait": [
+				{
+					"name": "Vehicle Proficiencies",
+					"entries": [
+						"heavy pike, pike, skiff"
+					]
+				},
+				{
+					"name": "Vicious",
+					"entries": [
+						"Once on each of the captain's turns, it can increase the amount of damage it does with a successful weapon attack by 7 ({@dice 2d6}). The captain can choose to do this after it makes its attack roll, but before it rolls damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The captain makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Shock Rifle",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 6} to hit, scope 15/120/240 (medium), one target. {@h}7 ({@damage 1d8 + 3}) arc damage"
+					]
+				},
+				{
+					"name": "Shock Smallsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) arc damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Blink (3/brief rest)",
+					"entries": [
+						"If the captain is subject to a Strength saving throw, a Dexterity saving throw, or an attack from a source it can perceive, it can teleport to an unoccupied space within 10 feet, taking all carried and worn equipment with it. Doing so grants disadvantage on the attack, or advantage on the captain’s saving throw."
+					]
+				}
+			]
+		},
+		{
+			"name": "Awoken Corsair",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"awoken"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"light armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 5",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 13,
+			"int": 14,
+			"wis": 12,
+			"cha": 13,
+			"passive": 13,
+			"cr": "1/4",
+			"languages": [
+				"Risen",
+				"RSL",
+				"Awoken Speech"
+			],
+			"save": {
+				"dex": "+3",
+				"wis": "+3"
+			},
+			"skill": {
+				"athletics": "+3",
+				"perception": "+3",
+				"survival": "+3",
+				"insight": "+3",
+				"investigation": "+4",
+				"stealth": "+4"
+			},
+			"trait": [
+				{
+					"name": "Vehicle Proficiencies",
+					"entries": [
+						"jumpships, sparrows"
+					]
+				},
+				{
+					"name": "Paracausal Resistance",
+					"entries": [
+						"The Corsair has advantage on saving throws against spells, Light abilities, and Darkness effects"
+					]
+				}
+			],
+			"page": 137,
+			"action": [
+				{
+					"name": "Sidearm",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 4} to hit, scope 20/30/40 (close), one target. {@h}5 ({@damage 1d6 + 2}) kinetic damage"
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft.,",
+						"one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Shank Master",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"eliksni"
+				]
+			},
+			"source": "DungeonsandDestiny",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"medium armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 17,
+			"wis": 15,
+			"cha": 11,
+			"passive": 14,
+			"cr": "2",
+			"page": 29,
+			"senses": [
+				"darkvision 80ft"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Eliksni"
+			],
+			"save": {
+				"dex": "+5",
+				"int": "+5"
+			},
+			"skill": {
+				"perception": "+5",
+				"stealth": "+5"
+			},
+			"trait": [
+				{
+					"name": "Technology Skill",
+					"entries": [
+						"+9"
+					]
+				},
+				{
+					"name": "Vehicle Proficiencies",
+					"entries": [
+						"heavy pike, pike"
+					]
+				},
+				{
+					"name": "Shank Control (range: 300 ft)",
+					"entries": [
+						"The shank master's computer allows it to wirelessly interface and communicate with shanks that are linked to it and within range. Linked shanks can share information such as their operational status, the friendly/hostile status of other creatures, and the location of creatures they can see.",
+						"As a bonus action on each of its turns, the shank master can choose a connected shank and direct it to move up to the shank's movement speed, or to take an action other than a multiattack action."
+					]
+				},
+				{
+					"name": "Vandal Evasion (1/long rest)",
+					"entries": [
+						"If the shank master fails a Dexterity saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shock Rifle",
+					"entries": [
+						"Firearm Weapon Attack: {@hit 5} to hit, scope 15/120/240 (medium), one target. {@h}6 ({@damage 1d8 + 2}) arc damage."
+					]
+				},
+				{
+					"name": "Repair Unit (3 uses/short rest)",
+					"entries": [
+						"Using spare parts they carry, the shank master can repair a shank, healing it for up to 10 ({@dice 3d6}) health points. If a shank is at 0 hit points, the shank master can spend 1 minute and attempt an Intelligence (Technology) check against a DC of 13 + the shank’s CR (minimum of +1). On a success, the shank regains 1 health point."
+					]
+				}
+			]
+		}
+	]
+}
