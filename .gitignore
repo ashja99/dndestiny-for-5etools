@@ -1,6 +1,7 @@
 map assets/
 monsters/
 characters/
+ParacausalPursuit/
 *.png
 *.pdf
 Bestiary Lookup.xlsx
