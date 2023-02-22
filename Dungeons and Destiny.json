@@ -2,17 +2,308 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "DungeonsandDestiny",
-				"abbreviation": "DnDestiny",
-				"full": "Dungeons and Destiny",
+				"json": "DnDestinyPG",
+				"abbreviation": "DnDestinyPG",
+				"full": "Dungeons and Destiny Players Guidebook",
 				"url": "https://velvetfanggames.com/dndestinycontent",
 				"authors": [
 					"Velvet Fang"
 				],
-				"convertedBy": []
+				"convertedBy": ["aja#4108"]
+			},
+			{
+				"json": "DnDestinyB",
+				"abbreviation": "DnDestinyB",
+				"full": "Dungeons and Destiny Bestiary",
+				"url": "https://velvetfanggames.com/dndestinycontent",
+				"authors": [
+					"Velvet Fang"
+				],
+				"convertedBy": ["aja#4108"]
 			}
 		]
 	},
+	"condition": [
+		{
+			"name": "Blinded",
+			"source": "DnDestinyPG",
+			"page": 174,
+			"entries": [
+				"A Blinded creature can’t see, can’t begin Aiming (see the condition), and automatically fails any ability check that requires sight.",
+				"If a creature is Blinded while Aiming, the Aiming condition immediately ends for them.",
+				"Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage."
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "DnDestinyPG",
+			"page": 174,
+			"entries": [
+				"An Invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise they make, any tracks they leave, by scent, or by scanners."
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "DnDestinyPG",
+			"page": 174,
+			"entries": [
+				"An Invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise they make, any tracks they leave, by scent, or by scanners."
+			]
+		},
+		{
+			"name": "Prone",
+			"source": "DnDestinyPG",
+			"page": 174,
+			"entries": [
+				"A Prone creature’s only movement option is to crawl, unless they stand up and end the condition.",
+				"The creature has disadvantage on attack rolls.",
+				"Attack rolls against the creature have disadvantage if the attacker is not Aiming, or if the attacker is not within 5 feet of the creature. If the attacker is within 5 feet of the creature, the attacker has advantage on its attack roll."
+			]
+		},
+		{
+			"name": "Active Camouflage",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"A creature under the effects of active camouflage is Invisible (see the condition).",
+				"If the creature makes an attack roll, damage roll, or causes a target to make a saving throw, the condition immediately ends after applying relevant effects to the attack roll, damage throw, or saving throw."
+			]
+		},
+		{
+			"name": "Aiming",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"A creature that is Aiming when they take a shot with a weapon with scope ranges can take that shot normally up to the weapon’s extended range. They can also take a shot against a target within the weapon’s maximum range, but that attack is granted disadvantage.",
+				"A creature that is Aiming cannot make opportunity attacks."
+			]
+		},
+		{
+			"name": "Burning",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"A Burning creature cannot recover health points or energy shield points.",
+				"Burning creatures have disadvantage on their attack rolls."
+			]
+		},
+		{
+			"name": "Combat Prone",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"A Combat-Prone creature’s only movement option is to crawl, unless they stand up and end the condition.",
+				"It costs no movement for a Combat-Prone creature to begin Aiming with a medium- or long- range firearm.",
+				"Combat-Prone creatures have disadvantage on attack rolls they make, unless the attack is with a firearm or ranged weapon with a medium- or long-range scope.",
+				"Attack rolls against the creature have disadvantage if the attacker is not Aiming, or if the attacker is not within 5 feet of the creature, If the attacker is within 5 feet of the creature, the attacker has advantage on its attack roll."
+			]
+		},
+		{
+			"name": "Electrified",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"An Electrified creature has their speed halved.",
+				"At the start of the creature’s turn, they must roll a d6. On a roll of 3 or lower, the creature becomes Paralyzed until the start of their next turn, or until the Electrified condition ends for them, whichever happens first."
+			]
+		},
+		{
+			"name": "Empowered",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"Empowered comes in one of three stages: Stage 1, Stage 2, or Stage 3. You only take into consideration the highest stage of empowerment you have at any given time. Empowerment stages do not stack.",
+				"An Empowered (Stage 1) creature can increase the damage of weapon attacks they make for their Attack action by 1d4. At Stage 2 this becomes an increase of 1d6, and at Stage 3 it becomes an increase of 1d8."
+			]
+		},
+		{
+			"name": "Suppressed",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"A Suppressed creature cannot cast a Light ability, cannot cast a spell, and cannot make recharge rolls.",
+				"If a creature is Suppressed while concentrating, their concentration immediately ends.",
+				"Creatures cannot begin concentrating on anything while Suppressed."
+			]
+		},
+		{
+			"name": "Tethered",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"A Tethered creature is Suppressed and Weakened (see the conditions).",
+				"If a creature is moved out of range of the source of the effect, they are no longer Tethered."
+			]
+		},
+		{
+			"name": "Weakened",
+			"source": "DnDestinyPG",
+			"page": 175,
+			"entries": [
+				"If a creature has a resistance to a damage type, it loses that resistance while Weakened.",
+				"The creature makes attack rolls and ability checks with disadvantage."
+			]
+		}
+	],
+	"language": [
+		{
+			"name": "Chinese",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"Characters or Pinyin",
+			"typicalSpeakers": [
+				"Western and Southern Asians"
+			]
+		},
+		{
+			"name": "English",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"Latin",
+			"typicalSpeakers": [
+				"Eastern Europeans"
+			]
+		},
+		{
+			"name": "City Common",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"Latin",
+			"typicalSpeakers": [
+				"Citizens of the Last City"
+			]
+		},
+		{
+			"name": "Risen",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"Latin",
+			"typicalSpeakers": [
+				"Risen creatures"
+			]
+		},
+		{
+			"name": "Risen Sign Language (RSL)",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"",
+			"typicalSpeakers": [
+				"Risen, deaf and/or mute citizens of the Last City"
+			]
+		},
+		{
+			"name": "Russian",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"Cyrillic",
+			"typicalSpeakers": [
+				"Northern and Central Asians"
+			]
+		},
+		{
+			"name": "Spanish",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"Cyrillic",
+			"typicalSpeakers": [
+				"Central Americans and Western South Americans"
+			]
+		},
+		{
+			"name": "Speech",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Modern Human Language"
+			],
+			"type": "standard",
+			"script":"Awoken script",
+			"typicalSpeakers": [
+				"Distributary Awoken"
+			]
+		},
+		{
+			"name": "Eliksni",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Alien Language"
+			],
+			"type": "standard",
+			"script":"Eliksni",
+			"typicalSpeakers": [
+				"Eliksni",
+				"Reefborn Awoken"
+			]
+		},
+		{
+			"name": "Hexinary",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Alien Language"
+			],
+			"type": "standard",
+			"script":"d#ggHL",
+			"typicalSpeakers": [
+				"Vex"
+			]
+		},
+		{
+			"name": "Krill",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Alien Language"
+			],
+			"type": "standard",
+			"script":"Runes",
+			"typicalSpeakers": [
+				"Hive"
+			]
+		},
+		{
+			"name": "Ulurant",
+			"source": "DnDestinyPG",
+			"page": 109,
+			"entries": [
+				"Alien Language"
+			],
+			"type": "standard",
+			"script":"Ulurant",
+			"typicalSpeakers": [
+				"Cabal"
+			]
+		}
+	],
 	"monster": [
 		{
 			"name": "Shank",
@@ -26,7 +317,7 @@
 					"shank"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": [
 				"N"
 			],
@@ -116,8 +407,9 @@
 					]
 				},
 				{
-					"conditionImmune": [],
-					"preNote": "Burning"
+					"conditionImmune": [
+						"burning"
+					]
 				}
 			],
 			"action": [
@@ -149,7 +441,7 @@
 					"Eliskni"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -236,7 +528,7 @@
 					"shank"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -378,7 +670,7 @@
 					"Hive"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -489,7 +781,7 @@
 					"hive"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -572,7 +864,7 @@
 					"hive"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -651,7 +943,7 @@
 					"shank"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -739,8 +1031,9 @@
 					]
 				},
 				{
-					"conditionImmune": [],
-					"preNote": "Burning"
+					"conditionImmune": [
+						"burning"
+					]
 				}
 			],
 			"action": [
@@ -767,7 +1060,7 @@
 				"S"
 			],
 			"type": "construct",
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -848,7 +1141,7 @@
 					"shank"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -950,7 +1243,7 @@
 					"shank"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1035,7 +1328,7 @@
 					"shank"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1115,7 +1408,7 @@
 					"hive"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1183,7 +1476,7 @@
 					"hive"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1244,7 +1537,7 @@
 					"hive"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1320,7 +1613,7 @@
 					"Eliksni"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1407,7 +1700,7 @@
 					"Eliksni"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1494,7 +1787,7 @@
 					"eliksni"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1549,7 +1842,15 @@
 				{
 					"name": "Vehicle Proficiencies",
 					"entries": [
-						"heavy pike, pike, skiff"
+						"heavy pike",
+						"pike",
+						"skiff"
+					]
+				},
+				{
+					"name": "Energy Shields",
+					"entries": [
+						"Energy Shields 39 (6d8+12) arc"
 					]
 				},
 				{
@@ -1605,7 +1906,7 @@
 					"awoken"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{
@@ -1696,7 +1997,7 @@
 					"eliksni"
 				]
 			},
-			"source": "DungeonsandDestiny",
+			"source": "DnDestinyB",
 			"alignment": null,
 			"ac": [
 				{

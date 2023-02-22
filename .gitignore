@@ -1,0 +1,6 @@
+map assets/
+monsters/
+characters/
+*.png
+*.pdf
+Bestiary Lookup.xlsx
