@@ -306,131 +306,6 @@
 	],
 	"monster": [
 		{
-			"name": "Shank",
-			"size": [
-				"S"
-			],
-			"type": {
-				"type": "construct",
-				"tags": [
-					"Eliksni tech",
-					"shank"
-				]
-			},
-			"source": "DnDestinyB",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d6 + 2",
-				"average": 9
-			},
-			"speed": {
-				"fly": {
-					"number": 30,
-					"condition": "can hover"
-				},
-				"canHover": true
-			},
-			"str": 8,
-			"dex": 14,
-			"con": 12,
-			"int": 9,
-			"wis": 14,
-			"cha": 10,
-			"passive": 14,
-			"cr": "1/8",
-			"page": 26,
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"skill": {
-				"perception": "+2"
-			},
-			"immune": [
-				{
-					"immune": [
-						"poison"
-					]
-				},
-				{
-					"immune": [
-						"psychic"
-					]
-				}
-			],
-			"conditionImmune": [
-				{
-					"conditionImmune": [
-						"blinded"
-					]
-				},
-				{
-					"conditionImmune": [
-						"charmed"
-					]
-				},
-				{
-					"conditionImmune": [
-						"deafened"
-					]
-				},
-				{
-					"conditionImmune": [
-						"exhaustion"
-					]
-				},
-				{
-					"conditionImmune": [
-						"frightened"
-					]
-				},
-				{
-					"conditionImmune": [
-						"petrified"
-					]
-				},
-				{
-					"conditionImmune": [
-						"poisoned"
-					]
-				},
-				{
-					"conditionImmune": [
-						"burning"
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Turret",
-					"entries": [
-						"Firearm Weapon Attack: {@hit 4} to hit, scope 20/30/40",
-						"(close), one target. {@h}5 ({@damage 1d6 + 2}) arc damage."
-					]
-				}
-			],
-			"trait": [
-				{
-					"name": "Hack DC",
-					"entries": [
-						"15"
-					]
-				}
-			]
-		},
-		{
 			"name": "Dreg",
 			"size": [
 				"M"
@@ -577,49 +452,14 @@
 				}
 			],
 			"conditionImmune": [
-				{
-					"conditionImmune": [
-						"blinded"
-					]
-				},
-				{
-					"conditionImmune": [
-						"charmed"
-					]
-				},
-				{
-					"conditionImmune": [
-						"deafened"
-					]
-				},
-				{
-					"conditionImmune": [
-						"exhaustion"
-					]
-				},
-				{
-					"conditionImmune": [
-						"frightened"
-					]
-				},
-				{
-					"conditionImmune": [
-						"petrified"
-					]
-				},
-				{
-					"conditionImmune": [
-						"poisoned"
-					]
-				},
-				{
-					"conditionImmune": [
-						{
-							"special": "Burning"
-						}
-					],
-					"preNote": "Burning"
-				}
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"petrified",
+				"poisoned",
+				"burning"
 			],
 			"skill": {
 				"perception": "+7"
@@ -932,129 +772,6 @@
 			]
 		},
 		{
-			"name": "Shank",
-			"size": [
-				"S"
-			],
-			"type": {
-				"type": "construct",
-				"tags": [
-					"Eliksni tech",
-					"shank"
-				]
-			},
-			"source": "DnDestinyB",
-			"alignment": null,
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d6 + 2",
-				"average": 9
-			},
-			"speed": {
-				"fly": {
-					"number": 30,
-					"condition": "can hover"
-				},
-				"canHover": true
-			},
-			"str": 8,
-			"dex": 14,
-			"con": 12,
-			"int": 9,
-			"wis": 14,
-			"cha": 10,
-			"passive": 14,
-			"cr": "1/8",
-			"page": 26,
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"skill": {
-				"perception": "+2"
-			},
-			"immune": [
-				{
-					"immune": [
-						"poison"
-					]
-				},
-				{
-					"immune": [
-						"psychic"
-					]
-				}
-			],
-			"conditionImmune": [
-				{
-					"conditionImmune": [
-						"blinded"
-					]
-				},
-				{
-					"conditionImmune": [
-						"charmed"
-					]
-				},
-				{
-					"conditionImmune": [
-						"deafened"
-					]
-				},
-				{
-					"conditionImmune": [
-						"exhaustion"
-					]
-				},
-				{
-					"conditionImmune": [
-						"frightened"
-					]
-				},
-				{
-					"conditionImmune": [
-						"petrified"
-					]
-				},
-				{
-					"conditionImmune": [
-						"poisoned"
-					]
-				},
-				{
-					"conditionImmune": [
-						"burning"
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Turret",
-					"entries": [
-						"Firearm Weapon Attack: {@hit 4} to hit, scope 20/30/40",
-						"(close), one target. {@h}5 ({@damage 1d6 + 2}) arc damage."
-					]
-				}
-			],
-			"trait": [
-				{
-					"name": "Hack DC",
-					"entries": [
-						"15"
-					]
-				}
-			]
-		},
-		{
 			"name": "Bomb Shank",
 			"size": [
 				"S"
@@ -1108,9 +825,7 @@
 				"frightened",
 				"petrified",
 				"poisoned",
-				{
-					"special": "Burning"
-				}
+				"burning"
 			],
 			"trait": [
 				{
@@ -1189,9 +904,7 @@
 				"frightened",
 				"petrified",
 				"poisoned",
-				{
-					"special": "burning"
-				}
+				"burning"
 			],
 			"skill": {
 				"perception": "+7"
@@ -1294,9 +1007,7 @@
 				"frightened",
 				"petrified",
 				"poisoned",
-				{
-					"special": "burning"
-				}
+				"burning"
 			],
 			"action": [
 				{
@@ -1376,9 +1087,7 @@
 				"frightened",
 				"petrified",
 				"poisoned",
-				{
-					"special": "Burning"
-				}
+				"burning"
 			],
 			"trait": [
 				{
@@ -1682,7 +1391,7 @@
 					]
 				},
 				{
-					"name": "Technology Skill",
+					"name": "Technology",
 					"entries": [
 						"+3"
 					]
@@ -1842,15 +1551,13 @@
 				{
 					"name": "Vehicle Proficiencies",
 					"entries": [
-						"heavy pike",
-						"pike",
-						"skiff"
+						"heavy pike, pike, skiff"
 					]
 				},
 				{
 					"name": "Energy Shields",
 					"entries": [
-						"Energy Shields 39 (6d8+12) arc"
+						"Energy Shields 39 ({@dice 6d8+12}) arc"
 					]
 				},
 				{
@@ -2043,7 +1750,7 @@
 			},
 			"trait": [
 				{
-					"name": "Technology Skill",
+					"name": "Technology",
 					"entries": [
 						"+9"
 					]
